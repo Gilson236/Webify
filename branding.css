@@ -1,0 +1,7 @@
+/* Preserve the approved logo, fitting its surrounding space to the navigation. */
+.header .brand,.footer .brand{position:relative;display:block;flex:0 0 auto;width:136px;height:106px;overflow:hidden;isolation:isolate}
+.brand .brand-logo{position:absolute;display:block;width:220px;max-width:none;height:220px;left:-40px;top:-59px;object-fit:contain}
+.header{padding-top:12px;padding-bottom:12px}
+.footer .brand{width:122px;height:96px}
+.footer .brand-logo{width:198px;height:198px;left:-36px;top:-53px}
+@media(max-width:760px){.header{gap:16px;padding-top:10px;padding-bottom:18px}.header .brand{width:122px;height:96px}.header .brand-logo{width:198px;height:198px;left:-36px;top:-53px}}
